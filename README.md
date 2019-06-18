@@ -6,9 +6,9 @@ Fun Bus wants you to make their site more interactive. They are relying on you t
 
 **Follow these steps to set up and work on your project:**
 
-* [X ] Create a forked copy of this project.
+* [ X] Create a forked copy of this project.
 * [ X] Add your project manager as collaborator on Github.
-* [x ] Clone your OWN version of the repository (Not Lambda's by mistake!).
+* [ X] Clone your OWN version of the repository (Not Lambda's by mistake!).
 * [ X] Create a new branch: git checkout -b `<firstName-lastName>`.
 * [ X] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 * [ X] Push commits: git push origin `<firstName-lastName>`.
@@ -21,9 +21,9 @@ Fun Bus wants you to make their site more interactive. They are relying on you t
 
 ## Task 1: Set Up LESS Preprocessor
 
-* [ ] Verify that you have LESS installed correctly by running `lessc -v` in your terminal, if you don't get a version message back, reach out to your project manager for help.
+* [ X] Verify that you have LESS installed correctly by running `lessc -v` in your terminal, if you don't get a version message back, reach out to your project manager for help.
 
-* [ ] Open your terminal and navigate to your preprocessing project by using the `cd` command
+* [X ] Open your terminal and navigate to your preprocessing project by using the `cd` command
 
 * [ ] Once in your project's root folder, run the following command `less-watch-compiler less css index.less`
 
@@ -34,21 +34,24 @@ Fun Bus wants you to make their site more interactive. They are relying on you t
 ## Task 2: Create Unique Event Listeners
 
 * [ ] Using your [index.js file](js/index.js), create 10 [unique event listeners](https://developer.mozilla.org/en-US/docs/Web/Events). using your creativity to make the Fun Bus site more interactive.  Here are some unique events you could try to use: 
-	* [ ] `mouseover`
+	* [X] `mouseover`
 	* [ ] `keydown`
 	* [ ] `wheel`
 	* [ ] `drag / drop`
-	* [ ] `load`
+	* [X] `load`
 	* [ ] `focus`
-	* [ ] `resize`
+	* [X ] `resize`
 	* [ ] `scroll`
 	* [ ] `select`
-	* [ ] `dblclick`
+	* [X ] `dblclick`
+	* [X ] `mouseleave`
+	* [X ] `mouseenter`
+	* [X ] `click`
 
 Using the 10 unique events, find ways to update the DOM in creative ways. For example you could change colors, animate objects, remove objects, etc.
 
 * [ ] Nest two similar events somewhere in the site and prevent the event propagation properly
-* [ ] Stop the navigation from items from refreshing the page by using `preventDefault()`
+* [X] Stop the navigation from items from refreshing the page by using `preventDefault()`
 
 ## Stretch Task:
 
